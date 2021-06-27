@@ -117,6 +117,7 @@ Second Part (fillin in na with median) | 9354.23 | 10395
 1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
 
 ```{r, echo=FALSE, results='hide'}
+# If your system locale is not "en_US"
 # Retrieve and store current timezone of system
 OrgSystemTZ <- Sys.getlocale("LC_TIME")
 # Change system timezone to US/ENG
